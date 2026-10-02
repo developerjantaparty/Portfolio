@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ashish Singh — animated developer portfolio. AI/ML, frontend development, JavaScript, React and Python projects." />
+  <title>Ashish Singh — Animated Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home"><span>AS</span> / developer profile</a>
+    <nav>
+      <a href="#build">Build</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#connect">Connect</a>
+    </nav>
+    <a class="github-mini" href="https://github.com/developerjantaparty" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main id="home">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">// ASHISH SINGH · AI/ML + WEB DEVELOPER</p>
+        <h1>Building digital things<br><span>that feel alive.</span></h1>
+        <p class="hero-text">B.Tech AI/ML student creating interactive web experiences, practical AI projects, and clean developer tools.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore projects</a>
+          <a class="btn ghost" href="https://github.com/developerjantaparty" target="_blank" rel="noreferrer">View GitHub ↗</a>
+        </div>
+        <div class="role-line"><span class="pulse"></span><span id="roleText">AI/ML Engineer</span><span class="slash">/</span><span>Frontend Developer</span></div>
+      </div>
+
+      <div class="hero-stage">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="scan"></div>
+        <div class="camera-frame">
+          <div class="corner tl"></div><div class="corner tr"></div>
+          <div class="corner bl"></div><div class="corner br"></div>
+          <div class="camera-label">REC <span></span></div>
+          <div class="avatar-core">
+            <div class="avatar-ring"></div>
+            <img class="avatar-photo" src="assets/IMG_20260720_210632_808@786825515.jpg" alt="Ashish Singh" />
+          </div>
+          <div class="camera-caption">ASHISH // 2026<br><small>BUILD • LEARN • SHIP</small></div>
+        </div>
+        <div class="floating-chip chip-one">Python</div>
+        <div class="floating-chip chip-two">React</div>
+        <div class="floating-chip chip-three">AI / ML</div>
+      </div>
+    </section>
+
+    <section id="build" class="shell section">
+      <div class="section-head">
+        <p class="eyebrow">// 01 · WHAT I BUILD</p>
+        <h2>Curiosity → <span>working software.</span></h2>
+      </div>
+      <div class="build-grid">
+        <article class="build-card cyan">
+          <span class="num">01</span><div class="icon">⌘</div>
+          <h3>AI / Machine Learning</h3>
+          <p>Resume analysis, computer vision concepts, ML experiments and practical AI-powered products.</p>
+          <div class="meter"><i style="width:88%"></i></div><small>EXPERIMENT → MODEL → PRODUCT</small>
+        </article>
+        <article class="build-card pink">
+          <span class="num">02</span><div class="icon">◈</div>
+          <h3>Frontend Experiences</h3>
+          <p>Responsive interfaces with HTML, CSS, JavaScript and React, focused on interaction and usability.</p>
+          <div class="meter"><i style="width:94%"></i></div><small>DESIGN → BUILD → DEPLOY</small>
+        </article>
+        <article class="build-card purple">
+          <span class="num">03</span><div class="icon">↯</div>
+          <h3>Developer Projects</h3>
+          <p>Games, utilities and experimental web apps that turn small ideas into live projects.</p>
+          <div class="meter"><i style="width:82%"></i></div><small>IDEA → CODE → VERCEL</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell section">
+      <div class="section-head compact">
+        <p class="eyebrow">// 02 · CURRENT MODE</p>
+        <h2>Things I’m <span>into.</span></h2>
+      </div>
+      <div class="hobby-window">
+        <div class="hobby-track" id="hobbyTrack">
+          <article><b>01</b><strong>LeetCode</strong><span>DSA · problem solving · consistency</span></article>
+          <article><b>02</b><strong>AI/ML</strong><span>Python · models · computer vision</span></article>
+          <article><b>03</b><strong>Web Apps</strong><span>React · Node · responsive UI</span></article>
+          <article><b>04</b><strong>Product Ideas</strong><span>Build small · test fast · improve</span></article>
+          <article><b>05</b><strong>Deployment</strong><span>GitHub · Vercel · APIs</span></article>
+        </div>
+        <div class="carousel-controls"><button id="prev">←</button><span id="hobbyCount">01 / 05</span><button id="next">→</button></div>
+      </div>
+    </section>
+
+    <section id="stack" class="shell section stack-section">
+      <div class="section-head">
+        <p class="eyebrow">// 03 · TECH ORBIT</p>
+        <h2>My tools, <span>in motion.</span></h2>
+      </div>
+      <div class="orbit-wrap">
+        <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+        <div class="orbit-center"><strong>AS</strong><small>STACK</small></div>
+        <div class="planet p1">PY</div><div class="planet p2">JS</div><div class="planet p3">⚛</div>
+        <div class="planet p4">ML</div><div class="planet p5">GIT</div><div class="planet p6">SQL</div>
+      </div>
+      <div class="stack-list">
+        <span>Python</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>React</span><span>Node.js</span><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Git / GitHub</span>
+      </div>
+    </section>
+
+    <section class="shell section dashboard">
+      <div class="id-card">
+        <div class="holo"></div>
+        <div class="id-top"><span>DEVELOPER ID</span><span>NO. AS-2026</span></div>
+        <div class="id-avatar"><img src="assets/IMG_20260720_210632_808@786825515.jpg" alt="Ashish Singh" /></div>
+        <div class="id-name">ASHISH SINGH</div>
+        <div class="id-role">AI/ML ENGINEER · WEB DEVELOPER</div>
+        <div class="barcode"></div>
+        <div class="id-bottom"><span>BUILD / LEARN / SHIP</span><span>INDIA</span></div>
+      </div>
+      <div class="stats-panel">
+        <p class="eyebrow">// LIVE DASHBOARD</p>
+        <div class="stat"><span>Projects shipped</span><b>05+</b></div>
+        <div class="stat"><span>Primary languages</span><b>06+</b></div>
+        <div class="stat"><span>Current focus</span><b>AI + WEB</b></div>
+        <div class="stat"><span>Deployment</span><b>VERCEL</b></div>
+        <div class="terminal">
+          <span>$ ashish.build()</span>
+          <span>→ designing interfaces...</span>
+          <span>→ training ideas...</span>
+          <span>→ shipping experiments...</span>
+          <span class="blink">→ status: ONLINE_</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="shell section">
+      <div class="section-head">
+        <p class="eyebrow">// 04 · PROJECT CITY</p>
+        <h2>Projects that <span>escaped localhost.</span></h2>
+      </div>
+
+      <div class="city">
+        <div class="city-sky"><div class="moon"></div><div class="star s1"></div><div class="star s2"></div><div class="star s3"></div></div>
+        <div class="buildings">
+          <div class="tower t1"><i></i><i></i><i></i><i></i></div>
+          <div class="tower t2"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="tower t3"><i></i><i></i><i></i></div>
+          <div class="tower t4"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="tower t5"><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="road"></div>
+        <div class="project-labels">
+          <a href="https://chess-master-ashen.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/chess.jpg" alt="Grandmaster Chess Pro preview"><b>01</b><strong>Grandmaster Chess Pro</strong><small>HTML · CSS · JS · STOCKFISH</small></a>
+          <a href="https://guess-the-secret-number-2id8.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/number-game.jpg" alt="Number guessing game preview"><b>02</b><strong>Guess The Secret Number</strong><small>JAVASCRIPT · GAME LOGIC</small></a>
+          <a href="https://tic-tac-pro-seven.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/tic-tac-pro.jpg" alt="Tic Tac Pro preview"><b>03</b><strong>Tic Tac Pro</strong><small>HTML · CSS · JAVASCRIPT</small></a>
+          <a href="https://vyro-ivory.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/vyro.jpg" alt="Vyro YourTube Clone preview"><b>04</b><strong>Vyro — YourTube Clone</strong><small>WEB UI · SEARCH · RESPONSIVE</small></a>
+          <a href="https://drmaguide-jrrntgwej-thakursachinsingh562-3461s-projects.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/dermaguide.jpg" alt="DermaGuide preview"><b>05</b><strong>DermaGuide</strong><small>AI · COMPUTER VISION · WEB APP</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section project-table">
+      <div class="section-head compact"><p class="eyebrow">// PROJECT LOG</p><h2>Selected <span>builds.</span></h2></div>
+      <div class="table">
+        <div class="row head"><span>#</span><span>Project</span><span>Focus</span><span>Link</span></div>
+        <a class="row" href="https://chess-master-ashen.vercel.app/" target="_blank"><img src="assets/projects/chess.jpg" alt=""><span>01</span><strong>Grandmaster Chess Pro</strong><span>Interactive game</span><b>OPEN ↗</b></a>
+        <a class="row" href="https://guess-the-secret-number-2id8.vercel.app/" target="_blank"><img src="assets/projects/number-game.jpg" alt=""><span>02</span><strong>Guess The Secret Number</strong><span>Game / JS</span><b>OPEN ↗</b></a>
+        <a class="row" href="https://tic-tac-pro-seven.vercel.app/" target="_blank"><img src="assets/projects/tic-tac-pro.jpg" alt=""><span>03</span><strong>Tic Tac Pro</strong><span>Game / UI</span><b>OPEN ↗</b></a>
+        <a class="row" href="https://vyro-ivory.vercel.app/" target="_blank"><img src="assets/projects/vyro.jpg" alt=""><span>04</span><strong>Vyro — YourTube Clone</strong><span>Frontend</span><b>OPEN ↗</b></a>
+        <a class="row" href="https://drmaguide-jrrntgwej-thakursachinsingh562-3461s-projects.vercel.app/" target="_blank"><img src="assets/projects/dermaguide.jpg" alt=""><span>05</span><strong>DermaGuide</strong><span>AI / CV</span><b>OPEN ↗</b></a>
+      </div>
+    </section>
+
+    <section id="achievements" class="shell section achievements">
+      <div class="section-head">
+        <p class="eyebrow">// 05 · ACHIEVEMENTS & CERTIFICATES</p>
+        <h2>Proof of <span>learning.</span></h2>
+      </div>
+      <div class="certificate-grid">
+        <article class="certificate-card featured"><img src="assets/certificates/certificate-05.jpg" alt="India AI Impact Buildathon certificate"><div><span class="cert-type">ACHIEVEMENT</span><h3>India AI Impact Buildathon</h3><p>Certificate of participation in the India AI Impact Buildathon at the India AI Impact Summit 2026.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-01.jpg" alt="Kaggle Python certificate"><div><span class="cert-type">CERTIFICATE</span><h3>Kaggle — Python</h3><p>Certificate of completion for Python.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-02.jpg" alt="IBM AI and Machine Learning training certificate"><div><span class="cert-type">TRAINING</span><h3>IBM ICE — AI & Machine Learning</h3><p>Training completion certificate covering Artificial Intelligence & Machine Learning.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-03.jpg" alt="Internshala internship and job preparation certificate"><div><span class="cert-type">TRAINING</span><h3>Internshala — Internship & Job Preparation</h3><p>Completed a 4-week online training on internship and job preparation.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-04.jpg" alt="Web Development with AI certificate"><div><span class="cert-type">CERTIFICATE</span><h3>Web Development with AI</h3><p>Completed the Web Development with AI course with Grade A.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-06.jpg" alt="Kaggle Google AI Agents course badge"><div><span class="cert-type">BADGE</span><h3>Kaggle × Google — AI Agents</h3><p>5-Day AI Agents Intensive Course with Google.</p></div></article>
+        <article class="certificate-card"><img src="assets/certificates/certificate-07.jpg" alt="Noida International University participation certificate"><div><span class="cert-type">ACHIEVEMENT</span><h3>NIU — AI Digital Learning Ideathon</h3><p>Certificate of participation in the Ideathon seminar on new challenges and innovation in AI digital learning.</p></div></article>
+      </div>
+    </section>
+
+    <section id="connect" class="shell connect">
+      <div>
+        <p class="eyebrow">// 06 · CONNECT</p>
+        <h2>Let’s build the<br><span>next thing.</span></h2>
+      </div>
+      <div class="connect-links">
+        <a href="mailto:ashishsingh8055th@gmail.com"><span>Email</span><b>ashishsingh8055th@gmail.com ↗</b></a>
+        <a href="https://www.linkedin.com/in/ashish-singh-b608a335b" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>ashish-singh-b608a335b ↗</b></a>
+        <a href="https://github.com/developerjantaparty" target="_blank" rel="noreferrer"><span>GitHub</span><b>developerjantaparty ↗</b></a>
+      </div>
+      <div class="footer-line"><span>© 2026 ASHISH SINGH</span><span>MADE WITH HTML · CSS · JS</span><span>STATUS: AVAILABLE TO BUILD</span></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
